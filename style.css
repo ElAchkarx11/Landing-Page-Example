@@ -9,7 +9,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url('/img/bg_ti_image.png');
+    background-image: url('img/bg_ti_image.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -35,7 +35,7 @@
 .about{
     height: 100%;
     width: 100%;
-    background-image: url('/img/bg_ti_image_about.png');
+    background-image: url('img/bg_ti_image_about.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
