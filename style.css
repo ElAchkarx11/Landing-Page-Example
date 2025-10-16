@@ -1,0 +1,66 @@
+.front-page{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+}
+.front-page::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('/img/bg_ti_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    filter: opacity(0.8);
+    z-index: 0;
+}
+
+.content{
+    filter: opacity(100%);
+    z-index: 1;
+}
+
+.front-page-row {
+    background-color: #000;
+}
+
+.about-row{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.about{
+    height: 100%;
+    width: 100%;
+    background-image: url('/img/bg_ti_image_about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.footer{
+    color: white;
+}
+
+span .fa-brands{
+    color: white;
+    padding: 10px;
+}
+span .fa-brands:hover{
+    color: #d3d3d3;
+    padding: 10px;
+}
+
+.front-page-row {
+  position: relative; /* Permite posicionar o ícone dentro dessa div */
+}
+
+.front-page-row .fa-arrow-down {
+  position: absolute;
+  bottom: 20px; /* distância do fundo da seção */
+  left: 50%;
+  transform: translateX(-50%);
+}
